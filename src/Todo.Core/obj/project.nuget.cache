@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bfYSUs7lNI=",
+  "dgSpecHash": "kWI1MwVSKQI=",
   "success": true,
   "projectFilePath": "C:\\dev\\Todo\\src\\Todo.Core\\Todo.Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\borsato\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\borsato\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\borsato\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

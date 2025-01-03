@@ -42,12 +42,5 @@ public class TodoTaskMapping : IEntityTypeConfiguration<TodoTask>
         builder.Property(x => x.AssignedTo)
             .IsRequired()
             .HasColumnType("VARCHAR");
-
-        builder.Property(x => x.Category)
-            .IsRequired()
-            .HasColumnType("VARCHAR");
-        
-        
-
     }
 }

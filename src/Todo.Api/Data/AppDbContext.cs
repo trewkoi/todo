@@ -4,7 +4,7 @@ using Todo.Core.Models;
 
 namespace Todo.Api.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
     public DbSet<TodoTask> TodoTasks { get; set; } = null!;
     public DbSet<Category> Categories { get; set; } = null!;

@@ -18,6 +18,7 @@ public class TodoTask
     public ETaskStatus Status { get; set; } = ETaskStatus.Pending;
     
     public long AssignedTo { get; set; }
+    
     public long CategoryId { get; set; }
     public Category Category { get; set; } = null!;
 
